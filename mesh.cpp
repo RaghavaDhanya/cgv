@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <gl/glut.h>
-#define maxx 200
-#define maxy 255
+#define maxx 20
+#define maxy 25
 #define dx 15
 #define dy 10
 GLfloat x[maxx]={0.0}, y[maxy]={0.0};
-GLfloat x0=0,y0=0;
+GLfloat x0=50,y0=50;
 GLint i,j;
 void init()
 {
